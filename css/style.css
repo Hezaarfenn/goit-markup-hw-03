@@ -115,6 +115,7 @@ body {
 .second-part ul {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .second-list-li {
@@ -139,7 +140,6 @@ body {
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
-    width: calc((100% - 72px) / 4)
 }
 .third-list-title {
     text-align: center;
@@ -162,12 +162,14 @@ body {
 .third-part ul {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .third-list {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);    
+    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 72px) / 4) 
 }
 
 .third-text {
@@ -186,11 +188,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;    
-}
-
-.fourth-list {
-    width: calc((100% - 48px) / 3)
+    row-gap: 48px;
+    list-style-type: none;
 }
 
 .fourth-title-text-div {
@@ -237,6 +236,7 @@ body {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    padding-left: 150px;
 }
 
 .span-footer {
