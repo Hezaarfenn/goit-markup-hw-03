@@ -1,7 +1,7 @@
 body {
     color: #434455;
     background-color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;    
 }
 
 #navbar {
@@ -103,12 +103,17 @@ body {
     background-color: #404bbf;cursor: pointer;
 }
 
-.second-container {
-    padding: 120px 0; 
+.second-part {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .second-title {
-    width: calc((100% - 72px) / 4)
+    visibility: hidden;
+}
+
+#second-title-h3 {
+    width: calc((100% - 72px) / 4);
 }
 
 .second-part ul {
@@ -188,7 +193,7 @@ body {
     row-gap: 48px;    
 }
 
-.fourth-img {
+.fourth-list {
     width: calc((100% - 48px) / 3);
 }
 
