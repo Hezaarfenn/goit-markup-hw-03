@@ -188,7 +188,7 @@ body {
     row-gap: 48px;    
 }
 
-.fourth-list {
+.fourth-img {
     width: calc((100% - 48px) / 3);
 }
 
