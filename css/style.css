@@ -6,13 +6,16 @@ body {
 
 .navbar {
     display: flex;
-    align-items: center;  
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .navbar-container {
     display: flex;
     width: 1158px;
-
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
@@ -31,7 +34,8 @@ body {
 }
 
 .studio .link {
-    color:#2e2f42
+    color:#2e2f42;
+    padding: 24px 0;
 }
 
 .header-ul {
@@ -40,6 +44,8 @@ body {
     letter-spacing: 0.02em;
     color:#404bbf;
     list-style-type: none;
+    display: flex
+    gap: 40px;
 }
 
 .header-ul .link:hover,
