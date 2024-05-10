@@ -116,7 +116,7 @@ body {
     gap: 24px;
 }
 
-.second-list-title {
+.list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -133,24 +133,43 @@ body {
 
 .third-part {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: calc((100% - 72px) / 4)
 }
-
+.third-list-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
 .third-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:#2e2f42
+    color:#2e2f42;
+    margin-bottom: 72px;
+
+}
+
+.third-title-text-div {
+    padding: 32px 0;
+}
+
+.third-part ul {
+    display: flex;
+    gap: 24px;
 }
 
 .third-list {
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .third-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .footer-text {
