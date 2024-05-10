@@ -4,7 +4,7 @@ body {
     font-family: "Roboto", sans-serif;    
 }
 
-#navbar {
+.navbar {
     display: flex;
     align-items: center;  
 }
@@ -38,7 +38,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#404bbf    
+    color:#404bbf;
+    list-style-type: none;
 }
 
 .header-ul .link:hover,
@@ -49,7 +50,7 @@ body {
 .adress {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;  
+    color: #434455;
 }
 
 .adress:hover,
@@ -61,8 +62,10 @@ body {
     font-style: normal;
 }
 
-.address-container ul {
+.address-list-ul {
     display: flex;
+    list-style-type: none;
+    gap: 40px;
 }
 
 
@@ -235,8 +238,8 @@ body {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
-    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .span-footer {
