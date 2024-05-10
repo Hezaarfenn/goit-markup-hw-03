@@ -104,8 +104,11 @@ body {
 }
 
 .second-container {
-    padding: 120px 0;
-    
+    padding: 120px 0; 
+}
+
+.second-title {
+    width: calc((100% - 72px) / 4)
 }
 
 .second-part ul {
