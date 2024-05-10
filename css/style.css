@@ -4,10 +4,14 @@ body {
     font-family: "Roboto", sans-serif;    
 }
 
+.header-title {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .navbar-container {
