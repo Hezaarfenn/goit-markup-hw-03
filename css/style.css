@@ -153,10 +153,6 @@ img {
     letter-spacing: 0.02em;
 }
 
-.container {
-    width: calc((100% - 72px) / 4)
-}
-
 .third-part {
     background-color: #f4f4fd;
     padding-top: 120px;
