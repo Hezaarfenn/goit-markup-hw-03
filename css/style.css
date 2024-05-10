@@ -47,7 +47,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#404bbf;
-    list-style-type: none;    
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .header-ul .link:hover,
@@ -68,6 +70,7 @@ body {
 
 .address-container {
     font-style: normal;
+    padding-left: 280px;
 }
 
 .address-list-ul {
