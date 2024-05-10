@@ -112,10 +112,6 @@ body {
     visibility: hidden;
 }
 
-#second-title-h3 {
-    width: calc((100% - 72px) / 4);
-}
-
 .second-part ul {
     display: flex;
     gap: 24px;
