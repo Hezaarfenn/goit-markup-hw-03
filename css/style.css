@@ -215,10 +215,6 @@ img {
     border-top: none;
 }
 
-.fourth-list-ul {
-    width: calc((100% - 48px) / 3);
-}
-
 .fourth-title {
     font-size: 36px;
     line-height: 1.11;
@@ -227,7 +223,7 @@ img {
     text-transform: capitalize;
     color:#2e2f42;
     margin-bottom: 72px;
-
+    width: calc((100% - 48px) / 3);
 }
 
 .fourth-subheading {
