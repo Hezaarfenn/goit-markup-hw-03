@@ -26,6 +26,7 @@ a {
 
 .header-title {
     border-bottom: 1px solid #e7e9fc;
+    height: 72px;
 }
 
 .navbar {
@@ -36,6 +37,7 @@ a {
 
 .navbar-container {
     display: flex;
+    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
